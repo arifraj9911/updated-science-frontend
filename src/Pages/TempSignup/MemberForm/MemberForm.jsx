@@ -75,7 +75,7 @@ const MemberForm = () => {
   const signUp = async () => {
     try {
       const response = await fetch(
-        "http://104.248.122.19:5001/scienceacademyapi/v1/auth/signup",
+        "https://104.248.122.19:5001/scienceacademyapi/v1/auth/signup",
         {
           method: "POST",
           headers: {
