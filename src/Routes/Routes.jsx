@@ -17,12 +17,12 @@ import ProfileBlogDetails from "../Pages/Profile Blog Details/ProfileBlogDetails
 import SignUpAlternative from "../Pages/SignUp Alternative/SignUpAlternative";
 // import PrivateRoute from "./PrivateRoute";
 import UserLanding from "../Pages/User Landing/UserLanding";
-import Courses from "../pages/Courses/Courses";
+import Courses from "../Pages/Courses/Courses";
 import Faq from "../Pages/FAQ/Faq";
-import PracticeTestAdmin from "../pages/Practice Test Admin/PracticeTest";
-import StudyMaterial from "../pages/Study Material/StudyMaterial";
-import AdminPanel from "../pages/Admin Panel/AdminPanel";
-import VideoSolution from "../pages/Video Solution/VideoSolution";
+import PracticeTestAdmin from "../Pages/Practice Test Admin/PracticeTest";
+import StudyMaterial from "../Pages/Study Material/StudyMaterial";
+import AdminPanel from "../Pages/Admin Panel/AdminPanel";
+import VideoSolution from "../Pages/Video Solution/VideoSolution";
 import Forum from "../Pages/Forum/Forum";
 import ForumLevelTwo from "../Pages/Forum/Forum level 2/ForumLevelTwo";
 import Discussions from "../Pages/Forum/Discussions/Discussions";
