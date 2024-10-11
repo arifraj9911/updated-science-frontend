@@ -10,7 +10,7 @@ import {
 } from "firebase/auth";
 // import { app } from "../firebase/Firebase.config";
 import { GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
-import app from "../firebase/Firebase.config";
+import app from "../firebase/firebase.config";
 
 export const AuthContext = createContext(null);
 const auth = getAuth(app);
