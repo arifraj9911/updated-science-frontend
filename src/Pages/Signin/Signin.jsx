@@ -17,7 +17,7 @@ const Signin = () => {
   const signIn = async (email, password) => {
     try {
       const response = await fetch(
-        "https://104.248.122.19:5001/scienceacademyapi/v1/auth/login",
+        "https://api.scopioe.com/scienceacademyapi/v1/auth/login",
         {
           method: "POST",
           headers: {

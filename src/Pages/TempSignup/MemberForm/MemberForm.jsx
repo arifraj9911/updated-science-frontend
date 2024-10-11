@@ -75,7 +75,7 @@ const MemberForm = () => {
   const signUp = async () => {
     try {
       const response = await fetch(
-        "https://104.248.122.19:5001/scienceacademyapi/v1/auth/signup",
+        "https://api.scopioe.com/scienceacademyapi/v1/auth/signup",
         {
           method: "POST",
           headers: {
