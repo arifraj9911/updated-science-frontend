@@ -1,0 +1,56 @@
+/* poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dot-before::before {
+  content: "•"; /* Dot character */
+  color: #637381; /* Or any color you prefer */
+  display: inline-block;
+  margin-right: 0.1rem;
+  /* Adjust spacing between dot and text */
+  font-size: 20px;
+}
+
+/* Custom scrollbar for Chrome, Safari, and Edge */
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Scrollbar width */
+  opacity: 0; /* Initially hide the scrollbar */
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  /* background-color: #4A90E2; */
+  border-radius: 10px;
+}
+
+.sidebar-scrollbar::-webkit-scrollbar-track {
+  background-color: #c51a1a;
+}
+
+/* Scrollbar visible on hover */
+.sidebar-scrollbar:hover::-webkit-scrollbar {
+  opacity: 1;
+}
+
+/* Firefox custom scrollbar */
+.sidebar-scrollbar {
+  scrollbar-width: none;
+  scrollbar-color: rgb(190, 34, 34);
+}
+
+/* Firefox scrollbar visible on hover */
+/* .sidebar-scrollbar:hover {
+    scrollbar-width: thin;
+    
+  } */
+/* .active {
+  color: "#3758f9";
+  font-weight: 700;
+} */
+
+
