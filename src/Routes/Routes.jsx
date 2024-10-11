@@ -26,7 +26,7 @@ import VideoSolution from "../Pages/Video Solution/VideoSolution";
 import Forum from "../Pages/Forum/Forum";
 import ForumLevelTwo from "../Pages/Forum/Forum level 2/ForumLevelTwo";
 import Discussions from "../Pages/Forum/Discussions/Discussions";
-import ChangePassword from "../components/changePassword";
+import ChangePassword from "../components/ChangePassword";
 import PrivateRoute from "./PrivateRoute";
 import Signup from "../Pages/TempSignup/SignUp";
 export const router = createBrowserRouter([
